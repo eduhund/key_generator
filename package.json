@@ -1,6 +1,6 @@
 {
-	"name": "key-generator",
-	"version": "0.1.0",
+	"name": "key-machine",
+	"version": "1.0.0",
 	"description": "Generate various pseudo-random codes or dependency-based codes more easily.",
 	"main": "index.js",
 	"scripts": {
@@ -8,16 +8,16 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/eduhund/key-generator.git"
+		"url": "git+https://github.com/eduhund/key-machine.git"
 	},
-	"homepage": "https://github.com/eduhund/key-generator#readme",
+	"homepage": "https://github.com/eduhund/key-machine#readme",
 	"author": {
 		"name": "Roman Nebel",
 		"email": "im.roman.nebel@gmail.com",
 		"url": "https://github.com/roman-nebel"
 	},
 	"bugs": {
-		"url": "https://github.com/eduhund/key-generator/issues",
+		"url": "https://github.com/eduhund/key-machine/issues",
 		"email": "nebel@eduhund.com"
 	},
 	"license": "MIT",
