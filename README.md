@@ -1,4 +1,4 @@
-# Key Generator
+# Key Crafter
 
 Small, zero-dependency library for quick generation of some kind of keys.
 
@@ -6,13 +6,13 @@ Small, zero-dependency library for quick generation of some kind of keys.
 
 Just add the NPM package to your program:
 
-    npm i key_generator
+    npm i keycrafter
 
 # Use
 
 Import necessary functions to your module. For example:
 
-    const { generateKey } = require("key_generator")
+    const { generateKey } = require("keycrafter")
 
 Then call the function:
 
@@ -22,22 +22,22 @@ Then call the function:
 
 ## generateKey
 
-Receive no arguments or ***option*** object with several parameters
+Receive no arguments or **_option_** object with several parameters
 
 ### type
 
-Now library can generate two types of codes: ***digit*** (default) and ***string***.
+Now library can generate two types of codes: **_digit_** (default) and **_string_**.
 
 ### length
 
-Only positive integers are supported. The max value for the ***digit*** is 16, for the ***string*** – 32.
+Only positive integers are supported. The max value for the **_digit_** is 16, for the **_string_** – 32.
 
 ### Default options
 
 Function cat receives no arguments. In this way, the key will be generated with the parameters:
 
-* ***type***: "digit" (only digit symbols will be presented)
-* ***length***: 4. For example, 0000
+- **_type_**: "digit" (only digit symbols will be presented)
+- **_length_**: 4. For example, 0000
 
 If any of the options parameters won't be presented in options, the default one will be passed.
 
