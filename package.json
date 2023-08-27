@@ -1,0 +1,27 @@
+{
+	"name": "key-generator",
+	"version": "0.1.0",
+	"description": "Generate various pseudo-random codes or dependency-based codes more easily.",
+	"main": "index.js",
+	"scripts": {
+		"test": "jest"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/eduhund/key-generator.git"
+	},
+	"homepage": "https://github.com/eduhund/key-generator#readme",
+	"author": {
+		"name": "Roman Nebel",
+		"email": "im.roman.nebel@gmail.com",
+		"url": "https://github.com/roman-nebel"
+	},
+	"bugs": {
+		"url": "https://github.com/eduhund/key-generator/issues",
+		"email": "nebel@eduhund.com"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"jest": "^29.6.4"
+	}
+}
