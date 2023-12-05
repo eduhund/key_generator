@@ -1,6 +1,6 @@
 {
 	"name": "keycrafter",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Generate various pseudo-random codes or dependency-based codes more easily.",
 	"main": "index.js",
 	"scripts": {

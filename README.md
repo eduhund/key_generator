@@ -2,6 +2,15 @@
 
 Small, zero-dependency library for quick generation of some kind of keys.
 
+### Support & Donation
+
+Our team creates fully open-source tools and solutions for developers, designers, and those who teach these subjects. You can help us: share this tool, contribute to it, or donate to us to support future work. 
+[
+  ![Donate with PayPal]
+  (https://files.eduhund.com/stuff/paypal-donate-button.png)
+]
+(https://www.paypal.com/donate/?hosted_button_id=7Z9A2PABQU584)
+
 # Install
 
 Just add the NPM package to your program:
@@ -10,9 +19,13 @@ Just add the NPM package to your program:
 
 # Use
 
-Import necessary functions to your module. For example:
+Import necessary functions to your module. Supports CommonJS "require" & ESM "import" For example:
 
     const { generateKey } = require("keycrafter")
+
+or
+
+    import { generateKey } from "keycrafter"
 
 Then call the function:
 
