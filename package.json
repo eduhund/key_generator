@@ -1,8 +1,16 @@
 {
 	"name": "keycrafter",
-	"version": "1.0.4",
+	"version": "1.1.0",
 	"description": "Generate various pseudo-random codes or dependency-based codes more easily.",
-	"main": "index.js",
+	"main": "lib/main.js",
+  	"types": "lib/main.d.ts",
+	"exports": {
+		".": {
+			"types": "./lib/main.d.ts",
+			"require": "./lib/main.js",
+			"default": "./lib/main.js"
+		}
+	},
 	"scripts": {
 		"test": "jest"
 	},
